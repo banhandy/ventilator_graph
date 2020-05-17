@@ -1,4 +1,5 @@
-##GraphwithPointer for mimic Ventilator Monitor Graph
+#GraphwithPointer for mimic Ventilator Monitor Graph
+
 Recently people had been developing ventilator using Andruino and Flutter and one of the component needed is the Graphic showing input data from the sensor to the monitor. This widget use the same logic which had an index variable that can be use to update the data on the screen as we loop the pointer along the sccreen. The widget uses a List as the source of the data and also an index as pointer to display and will scale the information to fit the display. Take a look at the example to see how it can be used.
 
 The display can be customised using the following values:
