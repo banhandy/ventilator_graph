@@ -30,6 +30,7 @@ class _GraphWithPointerState extends State<GraphWithPointer> {
     return Container(
       width: double.infinity,
       height: double.infinity,
+      color: widget.backgroundColor,
       child: ClipRect(
         child: CustomPaint(
           painter: Graphic(
@@ -80,7 +81,7 @@ class Graphic extends CustomPainter {
     _maxDataY = maxData - minData;
     _maxRangeY = size.height - 30;
     _numberLine = countLine;
-    _drawRatioY = _maxDataY * 1.1 / _maxRangeY;
+    _drawRatioY = _maxDataY / _maxRangeY;
     _maxRangeX = size.width - 30;
     _numberSeperationX = dataSet.length.toDouble();
     _segmentSpaceX = _maxRangeX / _numberSeperationX;

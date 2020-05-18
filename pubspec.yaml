@@ -1,8 +1,7 @@
 name: ventilatorgraph
 description: A package for displaying Ventilator Graph Look a Like
-version: 0.0.1
-author: banhandy
-homepage: zenith-dashboard.com
+version: 0.0.4
+homepage: https://github.com/banhandy/ventilator_graph
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
