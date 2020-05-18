@@ -11,14 +11,14 @@ class GraphWithPointer extends StatefulWidget {
   final Color segmentYColor;
 
   GraphWithPointer(
-      {this.index,
-      this.minY,
-      this.maxY,
-      this.totalSegmentY,
-      this.dataSet,
-      this.backgroundColor,
-      this.lineColor,
-      this.segmentYColor});
+      {@required this.index,
+      this.minY = 1.0,
+      this.maxY = 0.0,
+      @required this.dataSet,
+      this.totalSegmentY = 5,
+      this.backgroundColor = Colors.black,
+      this.segmentYColor = Colors.white,
+      this.lineColor = Colors.redAccent});
 
   @override
   _GraphWithPointerState createState() => _GraphWithPointerState();
