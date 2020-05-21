@@ -124,7 +124,7 @@ class Graphic extends CustomPainter {
     trace.moveTo(originConvertX((0) * _segmentSpaceX),
         originConvertY((dataSet[0] - minData) / _drawRatioY, size.height));
 
-    for (int p = 0; p < dataSet.length; p++) {
+    for (int p = 0; p <= dataSet.length; p++) {
       double plotPoint =
           originConvertY((dataSet[p] - minData) / _drawRatioY, size.height);
       trace.lineTo(originConvertX(p.toDouble() * _segmentSpaceX), plotPoint);

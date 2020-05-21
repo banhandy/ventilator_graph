@@ -1,3 +1,5 @@
+## [0.1.0] -  21 May 2020.
+* fix bug on the upper side line segment
 ## [0.0.5] -  18 May 2020.
 * added default value
 ## [0.0.4] -  18 May 2020.
